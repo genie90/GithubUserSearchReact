@@ -6,9 +6,7 @@ import Search1 from '../components/Search1Component'
 import styles from '../styles/SearchScreenStyles'
 
 const Search = ({navigation}) => {
-  const [keyword, setKeyword] = useState('');
-
-  const dosearch = () => navigation.navigate('UserList', { keyword: keyword });
+  const dosearch = (keyword) => navigation.navigate('UserListScreen', { keyword: keyword });
 
   return (
     <View style={styles.container}>

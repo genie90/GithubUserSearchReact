@@ -7,6 +7,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import SearchScreen from './screens/SearchScreen'
+import UserListScreen from './screens/UserListScreen'
 
 import styles from './styles/AppStyles'
 
@@ -21,6 +22,7 @@ export default function App() {
       <NavigationContainer style={styles.container}>
         <Stack.Navigator style={styles.container} initialRouteName="SearchScreen">
           <Stack.Screen style={styles.container} name="SearchScreen" component={SearchScreen} options={{title: 'SearchScreen', headerShown: false}}/>
+          <Stack.Screen style={styles.container} name="UserListScreen" component={UserListScreen} options={{title: 'User List Result'}}/>
         </Stack.Navigator>
       </NavigationContainer>
       </Provider>
