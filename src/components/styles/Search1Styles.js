@@ -2,9 +2,10 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
+    flexGrow: 1,
     width: '100%',
-    backgroundColor: '#ffffff',
-    justifyContent: 'center',
+    backgroundColor: '#fafafa',
     padding: 10,
   },
   searchInput: {

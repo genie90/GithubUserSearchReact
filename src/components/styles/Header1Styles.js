@@ -3,8 +3,8 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     width: '100%',
-    height: 150,
-    backgroundColor: '#ffffff',
+    height: 200,
+    backgroundColor: '#24292e',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -12,6 +12,11 @@ const styles = StyleSheet.create({
     width: 60,
     height: 60,
     resizeMode: 'contain'
+  },
+  title: {
+    color: '#ffffff',
+    margin: 10,
+    fontSize: 20
   }
 });
 

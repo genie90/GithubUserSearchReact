@@ -2,8 +2,9 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    width: '100%',
-    height: '100%',
-    backgroundColor: '#ff0000',
-  },
+    flex: 1,
+    backgroundColor: '#ff0'
+  }
 });
+
+export default styles;

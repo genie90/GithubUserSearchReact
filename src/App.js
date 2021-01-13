@@ -19,8 +19,8 @@ export default function App() {
   return (
     <Provider store={store}>
       <NavigationContainer style={styles.container}>
-        <Stack.Navigator initialRouteName="SearchScreen">
-          <Stack.Screen name="SearchScreen" component={SearchScreen} options={{title: 'SearchScreen'}}/>
+        <Stack.Navigator style={styles.container} initialRouteName="SearchScreen">
+          <Stack.Screen style={styles.container} name="SearchScreen" component={SearchScreen} options={{title: 'SearchScreen', headerShown: false}}/>
         </Stack.Navigator>
       </NavigationContainer>
       </Provider>
